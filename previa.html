@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<script>function gtag() {}</script>
+<title>Camilla Alcione | Saúde Emocional</title>
+<meta name="description" content="Cura interior pela renovação da mente na verdade. Mentoria online e individual à luz da Palavra, com Camilla Alcione.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Camilla Alcione | Saúde Emocional">
+<meta property="og:description" content="Cura interior pela renovação da mente na verdade. Mentoria online e individual, à luz da Palavra.">
+<meta property="og:image" content="https://annepriscilla.github.io/camilla-alcione/assets/camilla.jpg">
+<meta property="og:url" content="https://annepriscilla.github.io/camilla-alcione/">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F2E8DD">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%236B4F3A'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='32' fill='%23FAF6F0' text-anchor='middle'%3ECA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #FAF6F0;
+    --sand: #F2E8DD;
+    --sand-deep: #E5D8C8;
+    --clay: #6B4F3A;
+    --clay-dark: #4A3B2E;
+    --gold: #A08363;
+    --text: #5C4E3F;
+    --white: #FFFFFF;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'Jost', 'Helvetica Neue', sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: var(--sans);
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+  h1, h2, h3 { font-family: var(--serif); color: var(--clay-dark); font-weight: 500; }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(250, 246, 240, 0.94);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--sand-deep);
+  }
+  .nav-inner {
+    max-width: 1040px; margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-logo { font-family: var(--serif); font-size: 20px; color: var(--clay-dark); text-decoration: none; }
+  .nav-links { display: flex; gap: 26px; }
+  .nav-links a {
+    color: var(--text); text-decoration: none; font-size: 14px;
+    letter-spacing: 0.5px; transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--clay); }
+  .nav-cta { border: 1px solid var(--clay); color: var(--clay) !important; padding: 6px 18px; border-radius: 999px; }
+  .nav-cta:hover { background: var(--clay); color: var(--cream) !important; }
+  @media (max-width: 700px) { .nav-links a:not(.nav-cta) { display: none; } }
+
+  /* ---------- Hero centralizado com arco ---------- */
+  header { background: var(--sand); padding: 118px 24px 64px; text-align: center; }
+  .arch-wrap { position: relative; width: min(260px, 64vw); margin: 0 auto 30px; }
+  .arch-wrap::before {
+    content: ""; position: absolute; inset: -12px;
+    border: 1.5px solid var(--gold);
+    border-radius: 300px 300px 18px 18px;
+  }
+  .arch-wrap img {
+    width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 50% 20%;
+    border-radius: 300px 300px 14px 14px; display: block;
+  }
+  header h1 { font-size: clamp(34px, 5vw, 48px); line-height: 1.1; }
+  .subtitle {
+    font-size: 13px; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--gold); margin: 10px 0 16px;
+  }
+  .tagline {
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(19px, 2.6vw, 24px); color: var(--clay);
+    max-width: 520px; margin: 0 auto 10px;
+  }
+  .bio { font-size: 16px; max-width: 480px; margin: 0 auto 28px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--clay); color: var(--cream);
+    font-family: var(--sans); font-size: 15px; letter-spacing: 0.5px;
+    padding: 15px 32px; border-radius: 999px; text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+  }
+  .btn:hover { background: var(--clay-dark); transform: translateY(-2px); }
+  .btn svg { width: 20px; height: 20px; }
+  .btn-outline { background: transparent; color: var(--clay); border: 1.5px solid var(--clay); }
+  .btn-outline:hover { background: var(--clay); color: var(--cream); }
+
+  section { padding: 70px 24px; }
+  .container { max-width: 760px; margin: 0 auto; }
+  .section-label {
+    font-size: 12px; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--gold); text-align: center; margin-bottom: 8px;
+  }
+  section h2 { font-size: clamp(28px, 4vw, 36px); text-align: center; margin-bottom: 28px; }
+
+  /* ---------- Dores ---------- */
+  .dores { background: var(--white); }
+  .dores-intro { text-align: center; max-width: 560px; margin: 0 auto 30px; font-size: 17px; }
+  .dor-list { max-width: 620px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+  .dor {
+    display: flex; gap: 14px; align-items: flex-start;
+    background: var(--cream); border: 1px solid var(--sand-deep);
+    border-radius: 12px; padding: 16px 20px; font-size: 15.5px;
+  }
+  .dor svg { width: 22px; height: 22px; stroke: var(--gold); flex-shrink: 0; margin-top: 3px; }
+  .dores-close { text-align: center; max-width: 560px; margin: 30px auto 0; font-family: var(--serif); font-size: 20px; font-style: italic; color: var(--clay); }
+
+  /* ---------- Teste ---------- */
+  .teste { background: var(--sand); }
+  .teste-intro { text-align: center; max-width: 480px; margin: -14px auto 28px; font-size: 16px; }
+  .teste-card {
+    max-width: 560px; margin: 0 auto; background: var(--white); border: 1px solid var(--sand-deep);
+    border-radius: 16px; padding: 30px 28px; text-align: center;
+  }
+  .teste-progresso { height: 4px; background: var(--sand); border-radius: 4px; overflow: hidden; margin-bottom: 14px; }
+  .teste-barra { height: 100%; width: 0; background: var(--gold); transition: width .3s; }
+  .teste-contador { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+  .teste-pergunta { font-family: var(--serif); font-size: 23px; line-height: 1.35; color: var(--clay-dark); min-height: 94px; margin-bottom: 22px; }
+  .teste-botoes { display: flex; gap: 12px; justify-content: center; }
+  .teste-botoes .btn { min-width: 120px; justify-content: center; cursor: pointer; border: 1.5px solid var(--clay); }
+  .teste-resultado .teste-titulo { font-family: var(--serif); font-size: 25px; line-height: 1.3; color: var(--clay-dark); margin-bottom: 14px; }
+  .teste-resultado p { font-size: 15.5px; margin-bottom: 12px; }
+  .teste-resultado ol { text-align: left; max-width: 360px; margin: 6px auto 22px; padding-left: 20px; font-size: 15px; }
+  .teste-resultado ol li { margin-bottom: 4px; }
+  .teste-refazer {
+    display: block; margin: 16px auto 0; background: none; border: none; cursor: pointer;
+    font-family: var(--sans); font-size: 13px; color: var(--gold); text-decoration: underline;
+  }
+
+  /* ---------- Como funciona ---------- */
+  #como-funciona { background: var(--sand); }
+  .passos-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 900px; margin: 0 auto 34px; }
+  .passo { text-align: center; padding: 26px 20px; background: var(--white); border: 1px solid var(--sand-deep); border-radius: 14px; }
+  .passo .num {
+    width: 44px; height: 44px; border-radius: 50%; margin: 0 auto 14px;
+    background: var(--clay); color: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--serif); font-size: 21px; line-height: 1;
+    font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1;
+  }
+  .passo h3 { font-size: 19px; margin-bottom: 8px; }
+  .passo p { font-size: 14px; }
+  .passos-cta { text-align: center; }
+  @media (max-width: 820px) { .passos-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) {
+    .passos-grid { grid-template-columns: 1fr; gap: 10px; }
+    .passo { display: grid; grid-template-columns: 44px 1fr; column-gap: 14px; text-align: left; padding: 16px 18px; align-items: center; }
+    .passo .num { grid-row: span 2; margin: 0; }
+    .passo h3 { margin-bottom: 0; }
+  }
+
+  /* ---------- Sobre ---------- */
+  .sobre { background: var(--white); }
+  .sobre-wrap { max-width: 640px; margin: 0 auto; text-align: center; }
+  .sobre p { margin-bottom: 14px; font-size: 16px; }
+  .cred {
+    margin-top: 18px; padding: 16px 20px; background: var(--sand);
+    border-radius: 12px; font-size: 14px; text-align: left;
+  }
+  .cred strong { font-weight: 500; color: var(--clay-dark); }
+  .sobre-lead { font-family: var(--serif); font-size: 21px !important; color: var(--clay-dark); line-height: 1.5; margin-bottom: 22px !important; }
+  .sobre-texto { text-align: left; }
+  .sobre-destaque {
+    font-family: var(--serif); font-style: italic; font-size: 20px !important; color: var(--clay);
+    border-left: 2px solid var(--gold); text-align: left; padding: 4px 0 4px 20px; margin: 26px 0 !important;
+  }
+
+  /* ---------- Depoimentos ---------- */
+  .depo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+  .depo { background: var(--white); border: 1px solid var(--sand-deep); border-radius: 14px; padding: 24px; }
+  .depo p { font-family: var(--serif); font-style: italic; font-size: 17px; margin-bottom: 14px; }
+  .depo span { font-size: 13px; letter-spacing: 1px; color: var(--gold); text-transform: uppercase; }
+
+  /* ---------- Planos ---------- */
+  .planos { background: var(--sand); }
+  .planos-intro { text-align: center; max-width: 520px; margin: -14px auto 34px; font-size: 16px; }
+  .plano-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; align-items: stretch; }
+  .plano {
+    position: relative; display: flex; flex-direction: column; text-align: center;
+    background: var(--white); border: 1px solid var(--sand-deep); border-radius: 16px; padding: 32px 24px 26px;
+  }
+  .plano.destaque { border: 1.5px solid var(--clay); box-shadow: 0 14px 30px -18px rgba(74, 59, 46, .45); }
+  .selo {
+    position: absolute; top: -12px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+    background: var(--clay); color: var(--cream); font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 4px 14px; border-radius: 999px;
+  }
+  .plano h3 { font-size: 27px; }
+  .plano .freq { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-top: 4px; padding-bottom: 16px; margin-bottom: 16px; border-bottom: 1px solid var(--sand-deep); }
+  .plano .desc { font-size: 15px; flex: 1; margin-bottom: 22px; }
+  .plano .btn { justify-content: center; }
+
+  /* ---------- Palestras ---------- */
+  .palestras { background: var(--sand); }
+  .palestras-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 1.3fr 1fr; gap: 44px; align-items: center; }
+  @media (max-width: 760px) { .palestras-inner { grid-template-columns: 1fr; } }
+  .palestras-inner img { width: 100%; height: 100%; max-height: 420px; object-fit: cover; border-radius: 16px; display: block; }
+  .palestras h2, .palestras .section-label { text-align: left; }
+  .palestras p { margin-bottom: 18px; font-size: 16px; }
+  .temas { list-style: none; margin: 0 0 26px; display: flex; flex-direction: column; gap: 10px; }
+  .temas li { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
+  .temas svg { width: 20px; height: 20px; stroke: var(--clay); flex-shrink: 0; margin-top: 4px; }
+
+  /* ---------- FAQ ---------- */
+  .faq { background: var(--white); }
+  .faq-list { max-width: 640px; margin: 0 auto; }
+  details { border-bottom: 1px solid var(--sand-deep); padding: 18px 6px; }
+  summary {
+    font-family: var(--serif); font-size: 19px; color: var(--clay-dark);
+    cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; font-size: 22px; color: var(--gold); }
+  details[open] summary::after { content: "–"; }
+  details p { padding-top: 10px; font-size: 15px; }
+  details p strong { font-weight: 500; color: var(--clay-dark); }
+  .faq-fecho { font-family: var(--serif); font-style: italic; font-size: 18px !important; color: var(--clay); }
+  .temas strong { font-weight: 500; color: var(--clay-dark); }
+
+  /* ---------- WhatsApp flutuante ---------- */
+  .wa-float {
+    position: fixed; right: 20px; bottom: 20px; z-index: 200;
+    display: flex; align-items: center; gap: 10px; text-decoration: none;
+    opacity: 0; transform: translateY(16px); pointer-events: none; transition: opacity .3s, transform .3s;
+  }
+  .wa-float.visivel { opacity: 1; transform: none; pointer-events: auto; }
+  .wa-label {
+    background: var(--cream); color: var(--clay-dark); font-size: 14px; border: 1px solid var(--sand-deep);
+    padding: 8px 16px; border-radius: 999px; box-shadow: 0 6px 18px rgba(74, 59, 46, .18);
+  }
+  .wa-icon {
+    position: relative; width: 58px; height: 58px; border-radius: 50%; background: var(--clay); color: var(--cream);
+    border: 1.5px solid var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 22px rgba(74, 59, 46, .35); transition: transform .2s, background .2s;
+  }
+  .wa-icon svg { width: 28px; height: 28px; }
+  .wa-float:hover .wa-icon { transform: scale(1.07); background: var(--clay-dark); }
+  .wa-icon::after {
+    content: ""; position: absolute; inset: 0; border-radius: 50%;
+    border: 1.5px solid var(--gold); animation: wa-pulse 2.8s ease-out infinite;
+  }
+  @keyframes wa-pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(1.5); opacity: 0; } }
+  @media (max-width: 600px) { .wa-label { display: none; } .wa-float { right: 16px; bottom: 16px; } }
+
+  .faq-cta { text-align: center; margin-top: 40px; }
+  .faq-cta p { font-family: var(--serif); font-size: 22px; color: var(--clay-dark); margin-bottom: 14px; }
+
+  /* ---------- CTA final ---------- */
+  .cta-final { background: var(--clay); text-align: center; }
+  .cta-final h2 { color: var(--cream); }
+  .cta-final p { color: #E8DCCB; max-width: 480px; margin: 0 auto 28px; }
+  .cta-final .btn { background: var(--cream); color: var(--clay); }
+  .cta-final .btn:hover { background: var(--white); }
+
+  footer { padding: 32px 24px 96px; text-align: center; font-size: 13px; color: var(--gold); }
+  footer a { color: var(--clay); text-decoration: none; }
+  .footer-cookies { margin-top: 8px; font-size: 11.5px; opacity: .8; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Camilla Alcione</a>
+    <div class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#planos">Planos</a>
+      <a href="#palestras">Palestras</a>
+      <a href="#faq">Dúvidas</a>
+      <a class="nav-cta" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20mentoria." target="_blank" rel="noopener">Agendar</a>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="arch-wrap"><img src="assets/camilla.jpg" alt="Camilla Alcione"></div>
+  <h1>Camilla Alcione</h1>
+  <p class="subtitle">Saúde emocional</p>
+  <p class="tagline">"Cura interior pela renovação da mente na verdade 🤍"</p>
+  <p class="bio">Aprenda a interpretar suas emoções para viver com leveza e verdade ✨</p>
+  <a class="btn" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20mentoria." target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+    Agende sua mentoria
+  </a>
+</header>
+
+<section class="dores" id="dores">
+  <p class="section-label">Você se reconhece?</p>
+  <h2>Nem toda ferida é visível</h2>
+  <p class="dores-intro">Muitas vezes sofremos não pelo que aconteceu, mas pelo significado que demos ao que aconteceu.</p>
+  <div class="dor-list">
+    <div class="dor">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
+      <span>Você sofre por coisas que talvez nem tenham acontecido. Um tom de voz diferente já vira rejeição.</span>
+    </div>
+    <div class="dor">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M4 12l4-4M4 12l4 4"/></svg>
+      <span>Repete escolhas que prometeu nunca mais repetir, e não entende por quê.</span>
+    </div>
+    <div class="dor">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21C7 17 3 13.5 3 9.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 9 3.5c0 4-4 7.5-9 11.5z"/></svg>
+      <span>Tem fé, ora, congrega, mas sente que carrega feridas que continuam doendo.</span>
+    </div>
+    <div class="dor">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 15c.83-.67 1.87-1 3-1s2.17.33 3 1M9 10h.01M15 10h.01"/></svg>
+      <span>Por fora está tudo bem, mas por dentro existe um cansaço que ninguém vê.</span>
+    </div>
+  </div>
+  <p class="dores-close">Você não precisa acreditar em tudo o que sente. Mas precisa aprender a entender o que sente.</p>
+</section>
+
+<section class="teste" id="teste">
+  <p class="section-label">Teste rápido</p>
+  <h2>Você carrega feridas emocionais?</h2>
+  <p class="teste-intro">Responda com sinceridade. São 7 perguntas e leva menos de um minuto.</p>
+  <div class="teste-card" id="teste-card">
+    <div class="teste-progresso"><div class="teste-barra" id="teste-barra"></div></div>
+    <p class="teste-contador" id="teste-contador">Pergunta 1 de 7</p>
+    <p class="teste-pergunta" id="teste-pergunta"></p>
+    <div class="teste-botoes">
+      <button type="button" class="btn" data-resp="1">Sim</button>
+      <button type="button" class="btn btn-outline" data-resp="0">Não</button>
+    </div>
+  </div>
+  <div class="teste-card teste-resultado" id="teste-resultado" hidden>
+    <p class="teste-titulo" id="resultado-titulo"></p>
+    <div id="resultado-texto"></div>
+    <a class="btn" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20fiz%20o%20teste%20no%20site%20e%20me%20identifiquei.%20Gostaria%20de%20saber%20mais%20sobre%20a%20mentoria." target="_blank" rel="noopener">Quero dar o primeiro passo</a>
+    <button type="button" class="teste-refazer" id="teste-refazer">Refazer o teste</button>
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="sobre-wrap">
+    <p class="section-label">Quem sou eu</p>
+    <h2>Sobre mim</h2>
+    <p class="sobre-lead">Sou Camilla Alcione, graduada em Enfermagem e especialista em Saúde Mental e Psicanálise. Mas, antes de ser profissional, eu fui uma menina que precisou aprender a sobreviver.</p>
+    <div class="sobre-texto">
+      <p>Cresci em um ambiente familiar disfuncional e desestruturado. Minha mãe tinha 16 anos quando me teve, meu pai nunca esteve presente e fui criada pelos meus avós. Aprendi muito cedo a me virar sozinha.</p>
+      <p>Olhando de fora, talvez parecesse que estava tudo bem. Eu seguia a vida, fazia o que precisava ser feito e aprendia a não depender de ninguém. Mas, por dentro, carregava a sensação de que tinha nascido para sobreviver.</p>
+      <p>Por muito tempo, eu não entendia o quanto meu passado estava influenciando a mulher que eu estava me tornando. Até que comecei a estudar o que havia sido instalado dentro de mim.</p>
+      <p>Me aprofundei na Bíblia, na Saúde Mental e na Psicanálise e comecei a compreender que muitas das coisas que eu chamava de personalidade, escolhas ou dificuldades eram, na verdade, respostas construídas ao longo da minha história.</p>
+      <p>Comecei a reconhecer minhas feridas, confrontar padrões e entender o que eu mesma havia construído dentro de mim para conseguir sobreviver. Foi assim que passei de uma menina insegura, que carregava medo e precisava se proteger, para uma mulher que consegue olhar para o futuro sem precisar viver governada pelo medo.</p>
+    </div>
+    <p class="sobre-destaque">Não foi sorte. Não foi simplesmente força de vontade. E não aconteceu porque minha história mudou. Minha história continuou sendo parte de mim, mas deixou de determinar quem eu seria.</p>
+    <div class="sobre-texto">
+      <p>Foi a partir dessa transformação que desenvolvi o meu método.</p>
+      <p>Hoje, uno minha formação profissional, meus estudos e minha fé cristã para ajudar outras pessoas a compreenderem o que existe por trás das próprias emoções, reconhecerem os padrões que as mantêm presas e ativarem sua identidade para viver a partir da verdade sobre quem são.</p>
+    </div>
+    <div class="cred">
+      <strong>Formação:</strong> graduada em Enfermagem · especialista em Saúde Mental e Psicanálise.
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona">
+  <p class="section-label">O método</p>
+  <h2>Como funciona a mentoria</h2>
+  <div class="passos-grid">
+    <div class="passo">
+      <div class="num">1</div>
+      <h3>Entender</h3>
+      <p>De onde veio a dor.</p>
+    </div>
+    <div class="passo">
+      <div class="num">2</div>
+      <h3>Identificar</h3>
+      <p>Os padrões que se repetem: medo do abandono, rejeição, autoimagem distorcida.</p>
+    </div>
+    <div class="passo">
+      <div class="num">3</div>
+      <h3>Trabalhar</h3>
+      <p>A cura de forma ativa, à luz da verdade.</p>
+    </div>
+    <div class="passo">
+      <div class="num">4</div>
+      <h3>Criar</h3>
+      <p>Novos padrões emocionais.</p>
+    </div>
+  </div>
+  <div class="passos-cta">
+    <a class="btn" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20mentoria." target="_blank" rel="noopener">Quero começar</a>
+  </div>
+</section>
+
+<section id="depoimentos">
+  <p class="section-label">Quem já viveu</p>
+  <h2>Depoimentos</h2>
+  <div class="container">
+    <div class="depo-grid">
+      <div class="depo">
+        <p>"No dia em que fiz mentoria com você foi muito diferente, porque você me aponta a perspectiva bíblica, me fala do amor, do perdão, da esperança. Não é o homem resolvendo as coisas, é Deus resolvendo. Eu me senti muito bem e tenho uma expectativa muito boa dos próximos encontros."</p>
+        <span>Mentorada</span>
+      </div>
+      <div class="depo">
+        <p>"Estou aprendendo a ficar linda, a me cuidar mais, sem esperar o elogio do próximo. Obrigada por me mostrar que o medo passa, que os traumas são curados, que Jesus é o caminho."</p>
+        <span>Mentorada</span>
+      </div>
+      <div class="depo">
+        <p>"Hoje eu corri 5,2 km. Obrigada por me ensinar a evoluir e me influenciar. Um passo, outro passo. ❤️"</p>
+        <span>Mentorada</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="planos" id="planos">
+  <p class="section-label">Mentoria individual</p>
+  <h2>Escolha seu formato</h2>
+  <p class="planos-intro">Encontros online, ao vivo e individuais, de 40 minutos a 1 hora.</p>
+  <div class="plano-grid">
+    <div class="plano">
+      <h3>Sessão Única</h3>
+      <p class="freq">1 encontro</p>
+      <p class="desc">Para olhar com profundidade para uma questão específica, compreender o que está por trás dela e encontrar clareza e direção.</p>
+      <a class="btn btn-outline" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20na%20Sess%C3%A3o%20%C3%9Anica." target="_blank" rel="noopener">Quero a Sessão Única</a>
+    </div>
+    <div class="plano destaque">
+      <span class="selo">Ideal para começar</span>
+      <h3>Despertar</h3>
+      <p class="freq">2 encontros por mês</p>
+      <p class="desc">Para começar um processo de acompanhamento, indo além de uma questão pontual e trabalhando compreensão, confronto e renovação.</p>
+      <a class="btn" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20Despertar." target="_blank" rel="noopener">Quero o Despertar</a>
+    </div>
+    <div class="plano">
+      <h3>Florescer</h3>
+      <p class="freq">4 encontros por mês</p>
+      <p class="desc">Para um acompanhamento mais próximo e contínuo, com espaço para aprofundar o processo, desenvolver autonomia e construir novas formas de caminhar.</p>
+      <a class="btn btn-outline" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20Florescer." target="_blank" rel="noopener">Quero o Florescer</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" id="contato">
+  <h2>Comece sua jornada de cura</h2>
+  <p>Dê o primeiro passo. Agende sua mentoria e aprenda a viver com leveza e verdade.</p>
+  <a class="btn" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20mentoria." target="_blank" rel="noopener">Falar com a Camilla</a>
+</section>
+
+<section class="palestras" id="palestras">
+  <div class="palestras-inner">
+    <div>
+      <p class="section-label">Ministração</p>
+      <h2>Palestras</h2>
+      <p>Camilla leva a mensagem de saúde emocional à luz da Palavra para igrejas, projetos sociais e eventos. Temas que ela ministra:</p>
+      <ul class="temas">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Emoções e seus significados:</strong> interpretar o que você sente. Nem toda rejeição ou abandono aconteceu; às vezes, foi interpretado.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Identidade:</strong> não é pensar mais ou menos de si, mas se enxergar a partir do que Cristo já definiu.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Feridas emocionais:</strong> reconhecer dores que foram escondidas, ignoradas ou normalizadas, inclusive aquelas que você aprendeu a esconder até de Deus.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Abandono e rejeição:</strong> compreender como experiências de abandono, rejeição e falta de pertencimento podem continuar influenciando seus relacionamentos, escolhas e a maneira como você se enxerga.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Propósito e sentido:</strong> reconectar-se com o sentido da própria vida e compreender que existir não é apenas sobreviver, cumprir obrigações ou alcançar objetivos.</span></li>
+      </ul>
+      <a class="btn btn-outline" href="https://forms.gle/7F9sUUrrDGnuxBFK7" target="_blank" rel="noopener">Solicitar uma palestra</a>
+    </div>
+    <img src="assets/palavra.jpg" alt="Bíblia aberta com tulipas ao sol">
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <p class="section-label">Dúvidas frequentes</p>
+  <h2>Perguntas comuns</h2>
+  <div class="faq-list">
+    <details>
+      <summary>A mentoria é online?</summary>
+      <p><strong>Sim. De qualquer lugar do mundo.</strong></p>
+      <p>O formato online elimina as limitações de espaço, mas não a conexão humana. Nossos encontros acontecem ao vivo, com olho no olho, escuta e presença. Você não recebe apenas conteúdos ou respostas prontas: existe alguém caminhando com você, fazendo perguntas, ajudando a interpretar o que você sente e conduzindo o processo com segurança e propósito.</p>
+      <p class="faq-fecho">Online na forma. Humano na experiência.</p>
+    </details>
+    <details>
+      <summary>É terapia ou aconselhamento?</summary>
+      <p><strong>É um espaço de escuta, confronto e renovação.</strong></p>
+      <p>Você não encontrará aqui alguém simplesmente dizendo o que você deve fazer. Eu escuto você sem julgamento e, juntos, investigamos o que está por trás do que você sente: as feridas, os padrões, as interpretações e os significados que foram construídos ao longo da sua história.</p>
+      <p>Mas identificar a raiz não é o ponto final. Nós confrontamos aquilo que precisa ser confrontado pela verdade. Durante o encontro, trabalhamos de forma prática o que foi identificado e você recebe materiais de apoio para continuar esse processo entre os encontros.</p>
+      <p>E tem algo que considero essencial: eu não quero que você dependa de mim para caminhar. Quero ensinar você a caminhar. Por isso, desenvolvemos recursos e uma musculatura emocional para que você possa reconhecer o que sente, interpretar o que acontece e se posicionar com a autoridade e a identidade que já carrega.</p>
+      <p>Mas desenvolver autonomia não significa fazer isso sozinho. Eu caminho com você. Estou presente, acompanho de perto, faço perguntas, confronto quando necessário, direciono e seguro sua mão enquanto você aprende a sustentar seus próprios passos.</p>
+      <p>Porque meu objetivo não é que você precise de mim para sempre. É que, ao longo do processo, você se torne cada vez mais capaz de caminhar com consciência, verdade e liberdade.</p>
+      <p class="faq-fecho">A liberdade não começa quando você termina a mentoria. Ela já existe. Cristo conquistou essa liberdade na cruz, e comigo você aprenderá a reconhecê-la, acessá-la e viver a partir dela.</p>
+    </details>
+    <details>
+      <summary>Quanto tempo dura cada encontro?</summary>
+      <p>Os encontros são online e individuais, com duração de 40 minutos a 1 hora. <a href="#planos">Veja os formatos</a>.</p>
+    </details>
+    <details>
+      <summary>A mentoria é compatível com a minha fé?</summary>
+      <p><strong>Sim, a fé cristã está no centro do meu trabalho.</strong></p>
+      <p>Este é um espaço para quem crê que Jesus Cristo é o caminho, a verdade e a vida, e entende que nossa caminhada com Deus não torna nenhuma parte de nós irrelevante. Não cuidamos apenas do que acontece no espírito e ignoramos o que acontece na alma. O espírito está pronto, mas nossa vontade e nossas emoções ainda precisam ser transformadas e renovadas.</p>
+      <p>Por isso, olhamos para a pessoa de forma integral: para sua história, suas emoções, seus pensamentos, suas escolhas, seus relacionamentos e sua identidade.</p>
+      <p>Não acredito que cuidar da saúde emocional seja substituir Cristo por um método. Cristo continua sendo o centro. Meu trabalho é ajudar você a compreender o que acontece dentro de você, confrontar aquilo que precisa ser confrontado pela verdade e aprender a viver de acordo com aquilo que Cristo já conquistou.</p>
+      <p class="faq-fecho">Fé e cuidado emocional não competem. Tudo importa.</p>
+    </details>
+  </div>
+  <div class="faq-cta">
+    <p>Ficou alguma dúvida?</p>
+    <a class="btn" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20fiquei%20com%20uma%20d%C3%BAvida%20sobre%20a%20mentoria." target="_blank" rel="noopener">Me chama no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Camilla Alcione · Saúde emocional · <a href="https://www.instagram.com/caalcione" target="_blank" rel="noopener">Instagram @caalcione</a> · <a href="https://forms.gle/7F9sUUrrDGnuxBFK7" target="_blank" rel="noopener">Solicitar palestra</a>
+  <p class="footer-cookies">Este site usa cookies para medir as visitas.</p>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5538997538992?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20mentoria." target="_blank" rel="noopener" aria-label="Agende seu horário pelo WhatsApp">
+  <span class="wa-label">Agende seu horário</span>
+  <span class="wa-icon"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.04 3C8.85 3 3 8.83 3 16c0 2.29.6 4.53 1.75 6.5L3 29l6.68-1.74A13.03 13.03 0 0 0 16.04 29C23.22 29 29 23.17 29 16S23.22 3 16.04 3zm0 23.8c-2 0-3.95-.54-5.66-1.55l-.4-.24-3.97 1.03 1.06-3.86-.26-.4A10.74 10.74 0 0 1 5.2 16c0-5.96 4.86-10.8 10.84-10.8 5.97 0 10.76 4.84 10.76 10.8 0 5.96-4.8 10.8-10.76 10.8zm5.93-8.08c-.32-.16-1.93-.95-2.23-1.06-.3-.11-.52-.16-.73.16-.22.32-.84 1.06-1.03 1.28-.19.21-.38.24-.7.08-.33-.16-1.38-.51-2.62-1.62-.97-.86-1.62-1.93-1.81-2.25-.19-.32-.02-.5.14-.66.15-.14.33-.38.49-.57.16-.19.22-.32.32-.54.11-.21.06-.4-.02-.56-.08-.16-.73-1.76-1-2.41-.27-.63-.53-.54-.73-.55h-.62c-.22 0-.57.08-.87.4-.3.32-1.14 1.11-1.14 2.71s1.17 3.14 1.33 3.36c.16.21 2.3 3.5 5.57 4.91.78.34 1.39.54 1.86.69.78.25 1.5.21 2.06.13.63-.09 1.93-.79 2.2-1.55.27-.76.27-1.42.19-1.55-.08-.14-.3-.22-.62-.38z"/></svg></span>
+</a>
+
+<script>
+  (function () {
+    // Cliques no WhatsApp e no formulário de palestras, com o local do botão
+    document.addEventListener('click', function (e) {
+      const a = e.target.closest('a');
+      if (!a) return;
+      let local = 'rodape';
+      if (a.classList.contains('wa-float')) local = 'botao_flutuante';
+      else if (a.closest('nav')) local = 'menu';
+      else if (a.closest('header')) local = 'topo';
+      else if (a.closest('section')) local = a.closest('section').id;
+      const plano = a.closest('.plano');
+      if (a.href.indexOf('wa.me') !== -1) {
+        gtag('event', 'clique_whatsapp', { local: local, plano: plano ? plano.querySelector('h3').textContent : '' });
+      } else if (a.href.indexOf('forms.gle') !== -1) {
+        gtag('event', 'clique_palestra', { local: local });
+      }
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    const wa = document.querySelector('.wa-float');
+    const onScroll = () => wa.classList.toggle('visivel', window.scrollY > 300);
+    window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  })();
+
+  (function () {
+    const perguntas = [
+      'Você costuma sentir muito medo de ser abandonado?',
+      'Você costuma duvidar do amor das pessoas por você?',
+      'Você acha que deveria receber mais afeto, apreço e cuidado do que recebe?',
+      'Costuma se ofender com facilidade, sentir-se injustiçado, como se não cuidassem dos seus sentimentos como deveriam?',
+      'Tem medo do futuro? O mundo te assusta e você não consegue se desafiar?',
+      'Você se sente sozinho mesmo cercado de pessoas?',
+      'Já esteve ou está em um relacionamento no qual vive inseguro e tem muito medo de perder essa pessoa?'
+    ];
+    const card = document.getElementById('teste-card');
+    const resultado = document.getElementById('teste-resultado');
+    const pergunta = document.getElementById('teste-pergunta');
+    const contador = document.getElementById('teste-contador');
+    const barra = document.getElementById('teste-barra');
+    let atual = 0, sim = 0;
+
+    function mostrar() {
+      pergunta.textContent = perguntas[atual];
+      contador.textContent = 'Pergunta ' + (atual + 1) + ' de ' + perguntas.length;
+      barra.style.width = (atual / perguntas.length * 100) + '%';
+    }
+
+    function finalizar() {
+      const titulo = document.getElementById('resultado-titulo');
+      const texto = document.getElementById('resultado-texto');
+      if (sim >= 4) {
+        titulo.textContent = 'Você respondeu "sim" para ' + sim + ' das 7 perguntas. É bem provável que você esteja ferido emocionalmente. 💔';
+        texto.innerHTML = '<p>Quando você identifica que tem feridas emocionais, já é um passo enorme. Porém, o caminho da cura não é linear. Agora você precisa:</p>' +
+          '<ol><li>Entender de onde veio a dor</li><li>Identificar os padrões (medo do abandono, rejeição, autoimagem distorcida)</li><li>Trabalhar a cura de forma ativa</li><li>Criar novos padrões emocionais</li></ol>' +
+          '<p>Você não precisa fazer esse caminho sozinho.</p>';
+      } else {
+        titulo.textContent = 'Você respondeu "sim" para ' + sim + ' das 7 perguntas.';
+        texto.innerHTML = '<p>Você mostrou poucos sinais de feridas emocionais, e isso é ótimo. Mas, se alguma dessas perguntas tocou você, vale a pena olhar para ela com calma.</p>' +
+          '<p>Entender o que você sente é o primeiro passo para viver com leveza e verdade.</p>';
+      }
+      gtag('event', 'teste_concluido', { respostas_sim: sim });
+      barra.style.width = '100%';
+      card.hidden = true;
+      resultado.hidden = false;
+    }
+
+    card.querySelectorAll('[data-resp]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        sim += Number(b.dataset.resp);
+        atual++;
+        if (atual < perguntas.length) mostrar(); else finalizar();
+      });
+    });
+
+    document.getElementById('teste-refazer').addEventListener('click', function () {
+      atual = 0; sim = 0;
+      resultado.hidden = true;
+      card.hidden = false;
+      mostrar();
+    });
+
+    mostrar();
+  })();
+</script>
+</body>
+</html>
